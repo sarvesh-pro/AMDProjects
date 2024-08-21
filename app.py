@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Load and serve the image
-with open("AMDProjects/AMD2.jpg", "rb") as f:
+with open("https://github.com/sarvesh-pro/AMDProjects/blob/main/AMD2.jpg", "rb") as f:
     st.image(f.read(), use_column_width=True)
 
 import streamlit as st
