@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Load and serve the image
-with open("C:/Users/Sarvesh/Downloads/AMD2.jpg", "rb") as f:
+with open("AMDProjects/AMD2.jpg", "rb") as f:
     st.image(f.read(), use_column_width=True)
 
 import streamlit as st
@@ -20,7 +20,7 @@ def get_base64_image(img_path):
 model = joblib.load('linear_regression_model.pkl')
 
 # Path to the local image
-img_path = "C:/Users/Sarvesh/Downloads/AMD2.jpg"
+img_path = "AMDProjects/AMD2.jpg"
 img_base64 = get_base64_image(img_path)
 
 # Title of the web app
