@@ -20,7 +20,7 @@ def get_base64_image(img_path):
 model = joblib.load('linear_regression_model.pkl')
 
 # Path to the local image
-img_path = "AMDProjects/AMD2.jpg"
+img_path = "https://github.com/sarvesh-pro/AMDProjects/blob/main/AMD2.jpg"
 img_base64 = get_base64_image(img_path)
 
 # Title of the web app
